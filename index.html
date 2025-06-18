@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gift Maker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <header data-aos="fade-down" data-aos-duration="1500">
+        <h1>GIFT MAKER</h1>
+    </header>
+
+    <section class="slogan" data-aos="fade-up" data-aos-duration="1500">
+        <p>You’re right where you should be. Choose your perfect gift!</p>
+    </section>
+
+    <section class="buttons" data-aos="zoom-in" data-aos-duration="1500">
+        <a href="family.html"><button>GIFT FOR FAMILY</button></a>
+        <a href="partner.html"><button>GIFT FOR A PARTNER</button></a>
+        <a href="friend.html"><button>GIFT FOR A FRIEND</button></a>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        window.onload = () => {
+            document.body.classList.add('loaded');
+        }
+    </script>
+
+</body>
+</html>
